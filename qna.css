@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @keyframes fadein {
     to {
         opacity: 1;
@@ -102,6 +108,7 @@ li {
 }
 .content h3 {
 	font-size: 50px;
+    font-family: 'InfinitySans-BoldA1';
 }
 .Q {
 	opacity: 0;
