@@ -40,6 +40,10 @@ body {
     overflow-x: hidden;
     font-family: "RIDIBatang";
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 header {
     position: fixed;
     border-bottom: 1px solid black;
