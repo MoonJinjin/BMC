@@ -49,6 +49,25 @@ a {
     text-decoration: none;
     color: black;
 }
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #072bff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #072bff;
+    text-decoration: none;
+}
 header {
     position: fixed;
     top: 0;
@@ -109,6 +128,7 @@ li {
 .content h3 {
 	font-size: 50px;
     font-family: 'InfinitySans-BoldA1';
+    color: #072bff;
 }
 .Q {
 	opacity: 0;
@@ -123,7 +143,7 @@ li {
 .Q.one {
 	width: 30%;
 	height: 20px;
-    background-color: gray;
+    background-color: #072bff;
     border-radius: 15px;
     border-bottom-right-radius: 0px;
     margin-top: 15px;
@@ -136,7 +156,7 @@ li {
 .Q.two {
 	width: 23%;
 	height: 20px;
-    background-color: gray;
+    background-color: #072bff;
     border-radius: 15px;
     border-bottom-right-radius: 0px;
     margin-top: 205px;
@@ -150,7 +170,7 @@ li {
 .Q.three {
 	width: 15%;
 	height: 20px;
-    background-color: gray;
+    background-color: #072bff;
     border-radius: 15px;
     border-bottom-right-radius: 0px;
     margin-top: 355px;
@@ -164,7 +184,7 @@ li {
 .Q.four {
 	width: 27%;
 	height: 20px;
-    background-color: gray;
+    background-color: #072bff;
     border-radius: 15px;
     border-bottom-right-radius: 0px;
     margin-top: 510px;
@@ -187,7 +207,8 @@ li {
 	width: 50%;
 	height: 60px;
     line-height: 20px;
-    background-color: pink;
+    background-color: black;
+    color: white;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     margin-top: 90px;
@@ -202,7 +223,8 @@ li {
 	width: 53%;
 	height: 20px;
 	line-height: 25px;
-    background-color: pink;
+    background-color: black;
+    color: white;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     margin-top: 280px;
@@ -216,7 +238,8 @@ li {
 .A.three {
 	width: 50%;
 	height: 20px;
-    background-color: pink;
+    background-color: black;
+    color: white;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     margin-top: 430px;
@@ -230,7 +253,8 @@ li {
 .A.four {
 	width: 50%;
 	height: 20px;
-    background-color: pink;
+    background-color: black;
+    color: white;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     margin-top: 580px;

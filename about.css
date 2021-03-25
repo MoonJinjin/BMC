@@ -23,6 +23,25 @@ a {
     text-decoration: none;
     color: black;
 }
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #072bff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #072bff;
+    text-decoration: none;
+}
 #logo {
     margin-left: 61px;
     height: 60px;
@@ -84,6 +103,7 @@ header {
     font-size: 50px;
     text-align: center;
     font-family: 'InfinitySans-BoldA1';
+    color: #072bff;
 }
 .about {
     width: 80%;
