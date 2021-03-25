@@ -8,6 +8,7 @@ header {
     padding: 1rem;
     color: white;
     background: white;
+    z-index: 10;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -56,18 +57,29 @@ a:active {
     align-items: center;
 }
 #main{
-    width: 1200px;
-    margin-left: 180px;
+    width: 1100px;
+    height: 100%;
     margin-right: 100px;
     margin-top: 170px;
-    padding-right: 150px;
+    align-items: center;
+    display: table;
+}
+#maincontent {
+    display: table-cell;
+    position: absolute;
+    width: 1100px;
+    height: 100%;
+    left: 50%;
+    margin-left: -550px;
     align-items: center;
 }
-
-.section{
+.sectionpart {
+    display: inline-block;
+}
+.section{   
     width: 300px;
     height: 500px;
-    margin-left: 40px;
+    margin-right: 50px;
     float: right;
     text-align: center;
     margin-top: 50px;
@@ -79,7 +91,7 @@ a:active {
      font-size: 50px;
      text-align: center;
      float: center;
-     margin-left: 150px;
+     /*margin-left: 150px;*/
     color: #072bff;
 }
 .img{
@@ -96,7 +108,7 @@ a:active {
     font-size: 20px;
     text-align: center;
     float: center;
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     margin-bottom: 0px;
 }
 .pr{
@@ -112,10 +124,11 @@ a:active {
 .year {
     width: 100%;
     display: inline-block;
-}
+} 
 .two{
+    margin-left: 50px; 
     font-family: 'InfinitySans-BoldA1';
-    margin-left: 230px;
+    /*margin-left: 230px;*/
     width: 100%
     font-size: 50px;
 }
@@ -123,7 +136,7 @@ a:active {
     font-family: 'InfinitySans-BoldA1';
      width: 100%
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 .ment{
     color: #072bff;
@@ -139,4 +152,9 @@ a:active {
      font-size: 30px;
      text-align: center;
      float: center;
+}
+.section img {
+
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }

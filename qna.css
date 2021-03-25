@@ -83,7 +83,7 @@ li {
 }
 .nav li {
     height: 40px;
-    list-style: none;
+    list-style: none; 
     margin: auto;
     float: right;
     text-align: center;
